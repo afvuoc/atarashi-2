@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/contacto.scss">
+  <link id="favicon" rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <title>Atarashii Gakkou no Leaders | Contacto</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="./assets/images/logo.png" alt="atarashi gakko logo" loading="lazy">
+      </a>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="sobre-nosotras.html">Sobre nosotras</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <button class="menu-ham" type="button">
+        <span class="br-1"></span>
+        <span class="br-2"></span>
+        <span class="br-3"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container-form">
+
+      <article class="atarashi-members-left">
+        <img src="./assets/images/atarashii-gakko-contact.jpg" alt="atarashii gakko contact" loading="lazy">
+      </article>
+      <section class="form-fields">
+        <form id="form" class="form" name="atarashii-form" netlify action="/gracias">
+          <div class="form-control">
+            <input type="text" id="username" name="nombre" placeholder="Nombre" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input type="text" id="email" name="correo-electronico" placeholder="Email" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <input type="text" id="phone" name="telefono" placeholder="Teléfono" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <textarea type="text" id="message" name="mensaje" placeholder="Escribe un mensaje"></textarea>
+            <small>Error message</small>
+          </div>
+          <button type="submit" class="btn btn-dark" value="send">Enviar mensaje</button>
+
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-form">
+      <div class="footer-form-flex">
+        <a href="index.html">
+          <img src="./assets/images/logo.png" alt="atarashi gakko logo" loading="lazy">
+        </a>
+      </div>
+
+      <div class="footer-form-flex">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="discografia.html">Discografía</a></li>
+          <li><a href="sobre-nosotras.html">Sobre nosotras</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-form-flex">
+        <ul>
+          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <script src="./assets/scripts/menu-burguer.js"></script><!-- do not remove this line! -->
+  <script src="./assets/scripts/contact-form.js"></script><!-- do not remove this line! -->
+
+</body>
+
+</html>

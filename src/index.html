@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/index.scss">
+  <link id="favicon" rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" type="module"></script>
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <title>Atarashii Gakkou no Leaders | 新しい学校のリーダーズ</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="./assets/images/logo.png" alt="atarashi gakko logo" loading="lazy">
+      </a>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="sobre-nosotras.html">Sobre nosotras</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li class="nav-gracias"><a href="gracias.html">Gracias</a></li>
+      </ul>
+      <button class="menu-ham" type="button">
+        <span class="br-1"></span>
+        <span class="br-2"></span>
+        <span class="br-3"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+
+      <article class="sticker">
+        <h2>Atarashii gakko!</h2>
+        <div class="sticker-grid">
+          <img src="./assets/images/atarashii-member-1.jpg" alt="atarashii gakko member" loading="lazy">
+          <img src="./assets/images/atarashii-member-2.jpg" alt="atarashii gakko member" loading="lazy">
+          <img src="./assets/images/atarashii-member-3.jpg" alt="atarashii gakko member" loading="lazy">
+          <img src="./assets/images/atarashii-member-4.jpg" alt="atarashii gakko member" loading="lazy">
+        </div>
+        <img src="./assets/images/logo.png" alt="atarashii gakko logo" loading="lazy">
+        <div class="music-toggle">
+          <a onClick="togglePlay()" id="toggle" data-text-swap="Music on"></a>
+        </div>
+        <audio id="music-song" src="./assets/audio/atarashi-audio.mp3" autoplay> Si no le funciona, use otro
+          navegador.</audio>
+        <input type="button" id="boton-play-pause" data-bs-toggle="tooltip" data-bs-placement="right"
+          title="Play/Pause" />
+      </article>
+
+      <article class="swiper-slide">
+        <div class="swiper-slide-text">
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+        </div>
+        <div class="swiper-slide-text swiper-slide-text-2">
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+          <span>ATARASHII GAKKO!<b>新しい学校のリーダーズ</b></span>
+        </div>
+      </article>
+    </section>
+
+    <section class="concert-grid">
+
+      <div class="concert-grid-a">
+        <img src="./assets/images/wakage-ga-itaru.webp" alt="wagake waitaru" loading="lazy">
+      </div>
+
+      <div class="concert-grid-b">
+        <img src="./assets/images/maenarawanai.jpg" alt="maenarawanai" loading="lazy">
+      </div>
+
+      <div class="concert-grid-c">
+        <div class="concert-grid-c-1">
+          <h1>Atarashii gakko!</h1>
+        </div>
+        <div class="concert-grid-c-2">
+          <h3>FUTURE CONCERTS</h3>
+        </div>
+        <div class="concert-grid-c-3"><img src="./assets/images/logo.png" alt="log atarashii gakko" loading="lazy">
+        </div>
+      </div>
+
+      <div class="concert-grid-d">
+        <a href="https://hitcfestival.com/">
+          <img src="./assets/images/head-in-the-cloud.jpg" alt="festival head in the cloud" loading="lazy">
+        </a>
+      </div>
+
+      <div class="concert-grid-e">
+        <img src="./assets/images/wakage-ga-itaru-2.webp" alt="wagake waitaru 2" loading="lazy">
+      </div>
+
+      <div class="concert-grid-f">
+        <img src="./assets/images/kimiwaina.jpg" alt="kimiwaina" loading="lazy">
+      </div>
+
+      <div class="concert-grid-g">
+        <img src="./assets/images/ookami-no-uta.jpg" alt="ookami no uta" loading="lazy">
+      </div>
+
+      <div class="concert-grid-h">
+        <img src="./assets/images/dokubana.jpeg" alt="dokubana" loading="lazy">
+
+      </div>
+      <div class="concert-grid-i">
+        <a href="https://easternstandardti.me/">
+          <img src="./assets/images/double-happiness.jpg" alt="festival double happiness" loading="lazy">
+        </a>
+      </div>
+
+      <div class="concert-grid-j">
+        <img src="./assets/images/mayoeba-totoshi.jpg" alt="mayoeba totoshi" loading="lazy">
+      </div>
+
+      <div class="concert-grid-k">
+        <img src="./assets/images/wakage-ga-itaru.webp" alt="wagake waitaru" loading="lazy">
+      </div>
+
+      <div class="concert-grid-l">
+        <img src="./assets/images/maenarawanai.jpg" alt="maenarawanai" loading="lazy">
+      </div>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-form">
+      <div class="footer-form-flex">
+        <a href="index.html">
+          <img src="./assets/images/logo.png" alt="atarashi gakko logo" loading="lazy">
+        </a>
+      </div>
+
+      <div class="footer-form-flex">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="discografia.html">Discografía</a></li>
+          <li><a href="sobre-nosotras.html">Sobre nosotras</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-form-flex">
+        <ul>
+          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./assets/scripts/menu-burguer.js"></script><!-- do not remove this line! -->
+  <script src="./assets/scripts/music-toggle.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>
