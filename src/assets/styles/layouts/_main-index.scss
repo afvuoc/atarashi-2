@@ -510,3 +510,17 @@ input[type="button"] {
     }
   } 
 }
+
+@media (max-width:$atarashii-gakko-tablet) {
+
+  .index {
+    max-height: calc(92vh - 2.4rem);
+    min-height: calc(92vh - 2.4rem);
+    padding-top: 0;
+    position: relative;
+  }
+  .swiper-slide {
+
+    position: relative;
+  }
+}
